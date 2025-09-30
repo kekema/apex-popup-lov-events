@@ -1,0 +1,35 @@
+{
+    "name" : "Popup LOV Events",
+    "version" : "1.0.0",
+    "description" : "Supports Popup LOV Open and Close events as can be used in Dynamic Actions. #lib4x",
+    "keywords" : ["Popup LOV", "Events"],
+    "homepage" : "https://github.com/kekema/apex-popup-lov-events",
+    "bugs" : {
+      "url" : "https://github.com/kekema/apex-popup-lov-events/issues",
+      "email" : "karel0008@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Karel Ekema",
+      "email" : "karel0008@gmail.com",
+      "url" : "https://karelekema.hashnode.dev",
+      "twitter": "@KarelEkema"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/kekema/apex-popup-lov-events"
+    },
+    "oracle" : {
+      "versions": ["19.0.0.0"],	
+      "apex" : {
+        "versions" : ["24.2"],
+        "plugin" : {
+          "internalName" : "LIB4X.AXT.POPUPLOV.EVENTS",
+          "type" : "dynamic action",
+          "demo" : "https://oracleapex.com/ords/r/yola/demo/popup-lov-events",
+          "previewImage" : "https://github.com/kekema/apex-popup-lov-events/blob/main/popup-lov-events.jpg?raw=true"
+        }
+      }
+    }
+}
