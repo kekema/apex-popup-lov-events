@@ -38,4 +38,5 @@ The 'Close' event gives you the next event object in this.data:
 
 <img width="999" height="208" alt="image" src="https://github.com/user-attachments/assets/7d6772d9-3cb6-4cc5-a797-1a4669778762" />
 
+<h3>Version History</h3>
 v1.0.0 build on APEX 24.2
